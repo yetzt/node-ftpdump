@@ -5,7 +5,7 @@ var path = require("path");
 // npm modules
 var ftp = require("ftp");
 var mkdirp = require("mkdirp");
-var debug = require("debug")("ftpftpdump");
+var debug = require("debug")("ftpdump");
 
 function ftpdump(conf, folder, _fn){
 	var self = this;
