@@ -19,7 +19,7 @@ new ftpdump({
 	user: "hacking_team",
 	password: "passw0rd",
 	root: "remote-folder"
-}, "local-folder", function(err){
+}, "/path/to/local-folder", function(err){
 	if (err) return console.log(err);
 	
 	// yay!
