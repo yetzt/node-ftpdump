@@ -1,6 +1,6 @@
 {
   "name": "ftpdump",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Recursively downlaod files from an FTP server.",
   "main": "ftpdump.js",
   "keywords": [
@@ -16,8 +16,8 @@
   },
   "license": "ISC",
   "dependencies": {
-    "debug": "^2.2.0",
+    "debug": "^4.3.3",
     "ftp": "^0.3.10",
-    "mkdirp": "^0.5.0"
+    "mkdirp": "^1.0.4"
   }
 }
