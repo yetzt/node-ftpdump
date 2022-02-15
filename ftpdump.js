@@ -20,7 +20,7 @@ function ftpdump(conf, folder, _fn){
 	self.cwd = null;
 	
 	self.conf = conf;
-	self.folder = (folder || "backups");
+	self.folder = path.resolve(process.cwd(), (folder || "backups"));
 	
 	debug("download folder is %s", self.folder);
 
