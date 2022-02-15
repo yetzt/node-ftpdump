@@ -82,7 +82,7 @@ ftpdump.prototype.scan = function(fn){
 			if (self.dirs.length === 0) return fn();
 
 			// start another round of happy scanning
-			scan(fn);
+			self.scan(fn);
 		});
 	});
 	
