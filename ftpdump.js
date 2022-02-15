@@ -24,7 +24,7 @@ function ftpdump(conf, folder, _fn){
 	self.conf = conf;
 	self.folder = (folder || "backups");
 	
-	debug("dwnload folder is %s", self.folder);
+	debug("download folder is %s", self.folder);
 
 	// new ftp client
 	self.ftpclient = new ftp();
